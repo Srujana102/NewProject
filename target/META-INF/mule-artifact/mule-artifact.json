@@ -1,0 +1,32 @@
+{
+  "configs": [
+    "r_propedb1.xml"
+  ],
+  "secureProperties": [],
+  "supportedJavaVersions": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:r_propedb1:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.11.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "log4j2.xml",
+        "property_file/dbencryption_dev.properties",
+        "property_file/db_dev.properties",
+        "r_propedb1.xml",
+        "yaml_file/db2.yaml",
+        "yaml_file/db_yamlencrypted.yaml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  },
+  "javaSpecificationVersions": [
+    "17"
+  ]
+}
