@@ -1,0 +1,7 @@
+#yaml confifurations
+db:
+ host : "iltdb.learn.mulesoft.com"
+ port : "3306"
+ username : "mule"
+ 
+ name : "training"
